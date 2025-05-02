@@ -1,0 +1,44 @@
+<!DOCUMENT HTML>
+<html>
+<head>
+	<title>FORMS</title>
+</head>
+<body>
+<form action="tables.html" method="get">
+USERNAME: <input type="text" name="username" value="Enter the username" size="20"></br>
+PASSWORD: <input type="password" name="password"></br>
+
+GENDER:
+male<input type="radio" name="gender" value="male"/>
+female<input type="radio" name="gender" value="female"/>
+other<input type="radio" name="gender" value="other"/></br>
+
+HOBBIES:
+music:<input type="checkbox" name="hobbies" value="music"/>
+games: <input type="checkbox" name="hobbies" value="games"/>
+read:  <input type="checkbox" name="hobbies" value="read"/>
+travel: <input type="checkbox" name="hobbies" value="travel"/></br>
+
+CLASS:
+<select name="class">
+<option value="0" >select the class:</option>
+<option value="FYBCA">FYBCA</option>
+<option value="SYBCA">SYBCA</option>
+<option value="TYBCA">TYBCA</option>
+<select>
+</br></br>
+
+DATE OF BIRTH: <input type="date"></br>
+
+FEEDBACK:</br>
+<textarea rows="20" cols="30"></textarea><br></br>
+
+RANGE:
+<input type "range"></br>
+<INPUT TYPE="SUBMIT" NAME="name" VALUE="login"></br>
+<INPUT TYPE="reset" NAME="login" VALUE="login"></br>
+<INPUT TYPE="button" NAME="name" VALUE="button"></br>
+</form>
+
+</body>
+</html>
